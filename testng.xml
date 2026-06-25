@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Kisan Sarathi 2.0 - KVK Expert Test Suite" verbose="1">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="01 - Login Verification">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="02 - Dashboard Data Verification">
+        <classes>
+            <class name="tests.DashboardVerificationTest"/>
+        </classes>
+    </test>
+
+    <test name="03 - Farmer Registration">
+        <classes>
+            <class name="tests.FarmerRegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="04 - Advisory Management">
+        <classes>
+            <class name="tests.AdvisoryManagementTest"/>
+        </classes>
+    </test>
+
+    <test name="05 - Query Management">
+        <classes>
+            <class name="tests.QueryManagementTest"/>
+        </classes>
+    </test>
+</suite>

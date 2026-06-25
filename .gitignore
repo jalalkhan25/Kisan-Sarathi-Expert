@@ -1,0 +1,20 @@
+# Build
+target/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (regenerated)
+reports/
+screenshots/
+
+# Credentials
+src/test/resources/config.properties
